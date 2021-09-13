@@ -1,0 +1,57 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: WeThinkCode
+    url: "https://www.wethinkcode.co.za"
+    location: Johannesburg Metropolitan
+    # company overview
+    overview: WeThinkCode_ is training Africa’s next generation of top tech talent in order to drive the digitisation of African business. We’re recruiting the sharpest minds and moulding them into exceptional software engineers.
+  positions:
+  - designation: Software Development Student
+    start: Aug 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Working in small teams to build programs, following agile practices for building software.
+    - Design, testing and coding scripts to automate the clusters systems
+    - Distributed systems (coming soon in second year curriculum)
+
+
+- company:
+    name: Andela
+    url: "https://andela.com/"
+    location: Remote
+    overview: Our Vision - A world where the most talented people can build a career commensurate with their ability - not their race, gender, or geography.
+  positions:
+  - designation: Mentor
+    start: Mar 2021
+    # end: Oct 2019
+    responsibilities:
+    - Teaching cloud computing to my mentees.
+    - Supporting my mentees through any technical and non-technical means.
+    - Learn from different backgrounds in order to upskill my teaching.
+
+- company:
+    name: Freelancing
+    url: "https://www.example.com"
+    location: Remote
+    overview: Working on multiple platforms and projects as a Freelancer.
+  positions:
+  - designation: Intern
+    start: Apr 2016
+    # end: Jan 2016
+    responsibilities:
+    - IT Support
+    - Project management
+    - Data entry

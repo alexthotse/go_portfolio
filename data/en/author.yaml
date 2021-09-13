@@ -1,0 +1,20 @@
+# some information about you
+name: "Alex Thotse"
+nickname: "Alex"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+# image: "images/author/john.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "alexthotse@gmail.com"
+  phone: "+27724762460"
+
+# some summary about what you do
+summary:
+  - I am a Developer
+  - I am a Mentor
+  - I love Cloud
+  - I love Data
+  - I love Design
+  - I love to work with some fun projects
+  - I work on open-source projects

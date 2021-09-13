@@ -1,0 +1,88 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Software Developer
+# your company information
+company:
+  name: WeThinkCode
+  url: "https://www.wethinkcode.co.za/"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am a passionate software developver who loves cloud technology. My tools help people to learn their workloads on cloud. Sometimes, I work on some fun projects such as writing a theme, etc.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "alexthotse@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/alexthotse"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://superuser.com/users/1188507/alex-thotse"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/alex-thotse/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/alexthotse"
+
+# - name: Facebook
+#   icon: "fab fa-facebook"
+#   url: "#"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: Google IT Support Certificate
+  url: "https://www.credly.com/badges/7314de7b-4248-4d8b-8768-9d1111fa2ccc/public_url"
+  badge: "	https://images.credly.com/images/98991f46-4c06-4f8b-a3ff-02a7e8768bb2/Google_Certs_IT.png"
+
+- type: certification
+  name: Enterprise Design Thinking Co-Creator
+  url: "https://www.credly.com/badges/7df9135b-48bf-4517-a4de-254634efc1cf/public_url"
+  badge: "	https://images.credly.com/images/2700b813-82b8-4232-9b36-5dcd5cd24584/Badges_v8-08_Co-Creator.png"
+
+- type: certification
+  name: Google IT Automation Certificate
+  url: "https://www.credly.com/badges/b2fbcea1-e34e-48ea-985e-50d806efb3cb/public_url"
+  badge: "https://images.credly.com/images/edc3e3ad-2aed-42c…a351e41f3f/IT_Automation_with_Python_2_2x__1_.png"
+
+- type: soft-skill-indicator
+  name: Leadership
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Hard Working
+  percentage: 85
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
